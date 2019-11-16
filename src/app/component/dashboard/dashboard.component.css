@@ -1,0 +1,362 @@
+
+.grid-margin{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+}
+
+.content-wrapper {
+    padding: 1.5rem 0;
+    width: 100%;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    background: #eff3f5;
+}
+
+.text{
+    color: rgb(53, 65, 104);
+}
+.card {
+    border: 1px solid #d5dcec;
+    border-radius: 0px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+.card-statistics .card-col {
+    border-right: 1px solid #d5dcec;
+}
+.row {
+    margin-right: -1px;
+    margin-left: -15px;
+}
+
+.card-top{
+    margin-top: 11%;
+}
+
+.card .card-body {
+    padding: 35px 18px;
+}
+.card-body {
+    flex: 1 1 auto;
+}
+
+.text-centers {
+    text-align: center !important;
+}
+
+.mt-3 {
+    margin-top: 3%;
+}
+.mb-4{
+    margin-bottom: 3%;
+}
+.pt-3, .py-3 {
+    padding-top: 1rem !important;
+}
+.border-top {
+    border-top: 1px solid #d5dcec !important;
+}
+
+.pb-0, .py-0 {
+    padding-bottom: 0 !important;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.mb-0{
+    margin-bottom: 0% !important;
+}
+.text-gray{
+    color: #636363;
+}
+
+.mb-4, .user-profile .side-left .card .overview .about-user, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+/* p {
+    font-weight: 400;
+    font-size: 0.8rem;
+} */
+
+.card-text{
+    text-align: start !important;
+}
+.border-bottom{
+    border-bottom: 1px solid #d5dcec !important;
+}
+
+.grid-margin {
+    margin-bottom: 25px;
+}
+
+.col-md-4, .lightGallery .image-tile {
+    flex: 0 0 33.33333%;
+    width: 26.6%;
+}
+
+.pb-1{
+    padding-bottom: 2.3%;
+}
+
+.stretch-card {
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+/* second card */
+
+.pb-2{
+    padding-bottom: 11.5%;
+}
+.mr-3 {
+    margin-right: 1%;
+}
+.m-1{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.ml-3{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+/* third card */
+.ml-auto, .mx-auto {
+
+    margin-left: auto !important;
+
+}
+.mr-auto, .mx-auto {
+
+    margin-right: auto !important;
+
+}
+.w-75 {
+    width: 75% !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.d-flex{
+    display: flex !important;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.text-muted{
+    color: #a8abad !important;
+}
+.chartjs-render-monitor {
+    animation: chartjs-render-animation 0.001s;
+}
+/* 
+.line{
+    padding-right: 1%;
+} */
+/* profile image on card */
+.img-lg {
+    width: 92px;
+    height: 92px;
+}
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* Table */
+
+.table-responsive {
+    display: block;
+    width: 84%;
+    overflow-x: auto;
+    border: 1px solid #d5dcec;
+    margin-left: 8%;
+}
+
+.table, .jsgrid .jsgrid-table {
+    margin-bottom: 0;
+}
+.table, .jsgrid .jsgrid-table {
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+}
+table {
+    border-collapse: collapse;
+}
+
+.table-responsive .table th, .table-responsive .jsgrid .jsgrid-table th, .jsgrid .table-responsive .jsgrid-table th, .table-responsive .table td, .table-responsive .jsgrid .jsgrid-table td, .jsgrid .table-responsive .jsgrid-table td {
+    white-space: nowrap;
+}
+
+.table thead th, .jsgrid .jsgrid-table thead th {
+
+    border-top: 0;
+    border-bottom-width: 1px;
+    font-weight: 600;
+    color: #223C61;
+
+}
+
+.table thead th, .jsgrid .jsgrid-table thead th {
+
+    vertical-align: bottom;
+
+}
+.table td, .jsgrid .jsgrid-table td, .table th, .jsgrid .jsgrid-table th {
+
+    font-size: 1.2rem;
+    line-height: 1;
+    padding: 23px 30px;
+}
+table {
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+}
+th {
+    display: table-cell;
+}
+
+th {
+    text-align: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+/* heading */
+.bg-light {
+    background-color: #f3f5f6 !important;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+/* rows */
+.border-bottom-0 {
+    border-bottom: 0 !important;
+}
+
+.badge {
+
+    border-radius: 0.25rem;
+    font-size: 0.65rem;
+    font-weight: initial;
+    line-height: 1;
+    padding: 0.2rem 0.3rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+
+}
+.badge {
+
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+
+}
+/* row1 */
+
+.badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
+    border: 1px solid #4CCEAC;
+    color: #fff;
+}
+
+.badge-success, .preview-list .preview-item .preview-thumbnail .badge.badge-online {
+    color: #212529;
+    background-color: #4CCEAC;
+}
+/* row 2 */
+
+.badge-warning, .preview-list .preview-item .preview-thumbnail .badge.badge-busy {
+    border: 1px solid #FF6F59;
+    color: #fff;
+}
+.badge-warning, .preview-list .preview-item .preview-thumbnail .badge.badge-busy {
+    color: #212529;
+    background-color: #FF6F59;
+}
+
+/* row 3 */
+.table td .badge, .jsgrid .jsgrid-table td .badge, .table th .badge, .jsgrid .jsgrid-table th .badge {
+    margin-bottom: 0;
+}
+.badge-danger {
+    border: 1px solid #DB504A;
+    color: #fff;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #DB504A;
+}
+
+/*  */
+
+.current-chart-card{
+    width: 46.3%;
+}
+
+.update-card{
+    width: 46.3%;
+}
+
+.pl-4, .px-4 {
+    padding-left: 1.5rem !important;
+}
+.pb-4, .py-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.pr-4, .px-4 {
+    padding-right: 1.5rem !important;
+}
+.pt-4, .py-4 {
+    padding-top: 1.5rem !important;
+}
+.border-top {
+    border-top: 1px solid #d5dcec !important;
+}
+
+.font-weight-semibold {
+    font-weight: 600;
+}
+
+.display-2 {
+    font-size: 3.125rem;
+}
+.mt{
+    margin-top: 6%;
+    padding-left: 1%;
+}

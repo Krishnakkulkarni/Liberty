@@ -1,0 +1,65 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="shadow horizontal-layout col-lg-12 col-12">
+  <div class="col-md-6">
+    <img src="../assets/logo-inverse.svg" class="header">
+  </div>
+  <div class="col-md-6">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  </div>
+
+  <div class="row labels">
+    <div class="col-xl-2 headwid">
+      <button class="btn btn-outline-light btn-lg" routerLink="/dashboard" routerLinkActive="active"
+        (click)="HeaderName= 'dashboard'"
+        [ngClass]="{'before':HeaderName!= 'dashboard','after':HeaderName=='dashboard'}">DASHBOARD
+      </button>
+    </div>
+    <div class="col-xl-2 headwid">
+      <button class="btn btn-outline-light btn-lg" routerLink="/widgets" routerLinkActive="active"
+        (click)="HeaderName= 'widgets'"
+        [ngClass]="{'before':HeaderName!= 'widgets','after':HeaderName=='widgets'}">WIDGETS</button>
+    </div>
+    <div class="col-xl-2 dropdown headwid">
+      <button class="btn dropbtn btn-outline-light btn-lg textheader">UI ELEMENTS
+        <img src="../assets/arrow_drop_down-24px.svg">
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="col-xl-2 dropdown headwid">
+      <button class="btn dropbtn btn-outline-light btn-lg textheader">PAGES
+          <img src="../assets/arrow_drop_down-24px.svg">
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="col-xl-2 dropdown headwid">
+      <button class="btn dropbtn btn-outline-light btn-lg textheader">FORMS
+          <img src="../assets/arrow_drop_down-24px.svg">
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+    <div class="col-xl-2 dropdown headwid">
+      <button class="btn dropbtn btn-outline-light btn-lg textheader">APPS
+          <img src="../assets/arrow_drop_down-24px.svg">
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
