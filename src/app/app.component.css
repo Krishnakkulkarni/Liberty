@@ -24,6 +24,7 @@
   width: 100%;
     background: linear-gradient(30deg, #464de4, #814eff) !important;
     color: #fff;
+    font-weight: bolder;
 }
 
 .form-control{
@@ -58,11 +59,6 @@
     font-size: 16px;
     border: none;
   }
-  
-  /* .dropdown {
-    position: relative;
-    display: inline-block;
-  } */
   
   .dropdown-content {
     display: none;

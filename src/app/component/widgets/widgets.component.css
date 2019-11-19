@@ -1,0 +1,115 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12.5px;
+    margin-left: -12.5px;
+}
+
+.grid-margin {
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 768px) {
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+
+.card {
+    border: 1px solid #d5dcec;
+    border-radius: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+}
+
+.card-statistics{
+    margin-left: 8%;
+}
+
+.card-order{
+    margin-right: 8%;
+}
+
+small, .small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.content-wrapper{
+    background: #eff3f5;
+}
+
+.card-body{
+    background-color: white;
+}
+.card .card-body {
+    padding: 35px 25px;
+}
+
+.card-l2-1{
+    width: 92%;
+    margin-left: 12%;
+}
+.card-l2-2{
+    margin-right: 3%;
+    margin-left: 2%;
+}
+.card-l2-3{
+    width: 92%;
+    margin-left: -5%;
+}
+/*  */
+.img-lg {
+    width: 92px;
+    height: 92px;
+}
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+/*  */
+
+.list-input{
+    border: 1px solid #d5dcec;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    padding: 0.56rem 0.75rem;
+    width: 75%;
+    padding-left: 4%;
+    margin-left: 4%;
+}
+.border-top {
+    border-top: 1px solid #d5dcec !important;
+}
+.btn-sm{
+    border-color: #3940e2;
+    background: #3940e2;
+    color: #f3f5f6;
+}
+
+/*  */
+.text-facebook{
+    color: #3b579d;
+    font-size: large;
+}
+.text-linkedin{
+    color: #0177b4;
+    font-size: large;
+}
+.text-twitter{
+    color: #1da1f2;
+    font-size: large;
+}
+
+/*  */
