@@ -4,18 +4,18 @@
       <div class="card card-statistics mt-4 pb-0">
         <div class="card-body">
           <h4 class="card-title mb-0 num">Statistics</h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="d-inline-block">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="d-inline-block col-md-6">
               <div class="row d-flex">
                 <h2 class="mb-0 ml-2 num">$10,200</h2>
-                <div class="d-flex align-items-center ml-2">
-                  <i class="mdi mdi-clock text-muted"></i>
-                  <small class=" ml-1 mb-0 num">Updated: 9:10am</small>
+                <div class="row d-flex align-items-center time-position">
+                  <i class="fa fa-clock-o text-muted"></i>
+                  <div class="row ml-1 mb-0 nums">Updated: 9:10am</div>
                 </div>
               </div>
               <small class="text-gray">Raised from 89 orders.</small>
             </div>
-            <div class="d-inline-block">
+            <div class="d-inline-block col-md-6">
               <div class="bg-success px-4 py-2 rounded">
                 <i class="mdi mdi-buffer text-white icon-lg"></i>
               </div>
@@ -28,18 +28,18 @@
       <div class="card card-order mt-4 pb-0">
         <div class="card-body">
           <h4 class="card-title mb-0 num">Daily Order</h4>
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="d-inline-block">
+          <div class="row d-flex justify-content-between align-items-center">
+            <div class="d-inline-block col-md-6">
               <div class="row d-flex">
                 <h2 class="mb-0 ml-2 num">$2256</h2>
-                <div class="d-flex align-items-center ml-2">
-                  <i class="mdi mdi-clock text-muted"></i>
-                  <small class="ml-1 mb-0 nums">Updated: 05:42pm</small>
+                <div class="row d-flex align-items-center time-position">
+                  <i class="fa fa-clock-o text-muted"></i>
+                  <div class="row ml-1 mb-0 nums">Updated: 05:42pm</div>
                 </div>
               </div>
               <small class="text-gray">hey, let’s have lunch together</small>
             </div>
-            <div class="d-inline-block">
+            <div class="d-inline-block col-md-6">
               <div class="bg-warning px-4 py-2 rounded">
                 <i class="mdi mdi-wallet text-white icon-lg"></i>
               </div>
@@ -94,13 +94,13 @@
       </div>
     </div>
   </div>
-
+  <!-- card layer social media -->
   <div class="row">
     <div class="col-md-4 grid-margin">
-      <div class="card card-l2-1">
+      <div class="card card-l1-1">
         <div class="card-body">
-          <div class="d-flex flex-row align-items-top">
-            <i class="mdi mdi-facebook text-facebook icon-md"></i>
+          <div class="row d-flex flex-row align-items-top text-align">
+            <i class="fa fa-facebook text-facebook"></i>
             <div class="ml-3">
               <h6 class="text-facebook">2.62 Subscribers</h6>
               <p class="mt-2 text-muted card-text">You main list growing</p>
@@ -110,10 +110,10 @@
       </div>
     </div>
     <div class="col-md-4 grid-margin">
-      <div class="card card-l2-2">
+      <div class="card card-l1-2">
         <div class="card-body">
-          <div class="d-flex flex-row align-items-top">
-            <i class="mdi mdi-linkedin text-linkedin icon-md"></i>
+          <div class="row d-flex flex-row align-items-top text-align">
+            <i class="fa fa-linkedin text-linkedin"></i>
             <div class="ml-3">
               <h6 class="text-linkedin">5k connections</h6>
               <p class="mt-2 text-muted card-text">You main list growing</p>
@@ -123,10 +123,10 @@
       </div>
     </div>
     <div class="col-md-4 grid-margin">
-      <div class="card card-l2-3">
+      <div class="card card-l1-3">
         <div class="card-body">
-          <div class="d-flex flex-row align-items-top">
-            <i class="mdi mdi-twitter text-twitter icon-md"></i>
+          <div class="row d-flex flex-row align-items-top text-align">
+            <i class="fa fa-twitter text-twitter"></i>
             <div class="ml-3">
               <h6 class="text-twitter">3k followers</h6>
               <p class="mt-2 text-muted card-text">You main list growing</p>
@@ -208,7 +208,7 @@
       </div>
     </div>
     <div class="col-md-4 grid-margin stretch-card">
-      <div class="card text-center  card-l2-2">
+      <div class="card text-center card-l2-2">
         <div class="card-body">
           <img src="/src/assets/index.jpeg" class="img-lg rounded-circle mb-2" alt="profile image">
           <h4 class="num">Adesh Gupta</h4>
@@ -237,7 +237,7 @@
       </div>
     </div>
     <div class="col-md-4 grid-margin stretch-card">
-      <div class="card  card-l2-3">
+      <div class="card card-l2-3">
         <div class="card-body">
           <h4 class="num">Updates</h4>
           <ul class="bullet-line-list">
@@ -273,62 +273,62 @@
 
   <div class="row">
     <div class="col-md-4 grid-margin stretch-card">
-      <div class="card card-l2-1">
+      <div class="card card-l3-1">
         <div class="card-body">
-          <div class="d-flex justify-content-between">
-            <h4 class="card-title">Activity</h4>
-            <i class="mdi mdi-dots-vertical"></i>
+          <div class="row d-flex justify-content-between">
+            <h4 class="num Activity-text-space">Activity</h4>
+            <i class="fa fa-ellipsis-v menu-space"></i>
           </div>
-          <p class="card-description">What's people doing right now</p>
-          <div class="list d-flex align-items-center border-bottom py-3">
-            <img class="img-sm rounded-circle" src="../images/faces/face4.jpg" alt="">
-            <div class="wrapper w-100 ml-3">
-              <p class="mb-0"><b>Dobrick </b>posted in Material</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="mdi mdi-clock text-muted mr-1"></i>
-                  <p class="mb-0">That's awesome!</p>
+          <p class="card-description nums">What's people doing right now</p>
+          <div class="row list d-flex align-items-center border-bottom py-3 pb-4 pt-2">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC1.jpg" alt="">
+            <div class="wrapper w-100 ml-3 mt-0">
+              <p class="mb-0 nums mt-4"><b class="num">Dobrick </b>posted in Material</p>
+              <div class="row d-flex justify-content-between align-items-center last-cards-wid">
+                <div class="row d-flex align-items-center Activity-spacing">
+                  <i class="fa fa-clock-o text-muted"></i>
+                  <p class="mb-0 nums">That's awesome!</p>
                 </div>
-                <small class="text-muted ml-auto">2 hours ago</small>
+                <small class="text-spacing">2 hours ago</small>
               </div>
             </div>
           </div>
-          <div class="list d-flex align-items-center border-bottom py-3">
-            <img class="img-sm rounded-circle" src="../images/faces/face5.jpg" alt="">
+          <div class="row list d-flex align-items-center border-bottom py-3 pb-4 pt-4">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC2.jpg" alt="">
             <div class="wrapper w-100 ml-3">
-              <p class="mb-0"><b>Stella </b>posted in Material</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="mdi mdi-clock text-muted mr-1"></i>
-                  <p class="mb-0">That's awesome!</p>
+              <p class="mb-0 nums mt-4"><b class="num">Stella </b>posted in Material</p>
+              <div class="row d-flex justify-content-between align-items-center last-cards-wid">
+                <div class="row d-flex align-items-center Activity-spacing">
+                  <i class="fa fa-clock-o text-muted"></i>
+                  <p class="mb-0 nums">That's awesome!</p>
                 </div>
-                <small class="text-muted ml-auto">3 hours ago</small>
+                <small class="text-spacing">3 hours ago</small>
               </div>
             </div>
           </div>
-          <div class="list d-flex align-items-center border-bottom py-3">
-            <img class="img-sm rounded-circle" src="../images/faces/face7.jpg" alt="">
+          <div class="row list d-flex align-items-center border-bottom py-3 pb-4 pt-4">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC3.jpg" alt="">
             <div class="wrapper w-100 ml-3">
-              <p class="mb-0"><b>Peter </b>posted in Material</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="mdi mdi-clock text-muted mr-1"></i>
-                  <p class="mb-0">That's Great!</p>
+              <p class="mb-0 nums mt-4"><b class="num">Peter </b>posted in Material</p>
+              <div class="row d-flex justify-content-between align-items-center last-cards-wid">
+                <div class="row d-flex align-items-center Activity-spacing">
+                  <i class="fa fa-clock-o text-muted"></i>
+                  <p class="mb-0 nums">That's Great!</p>
                 </div>
-                <small class="text-muted ml-auto">1 hours ago</small>
+                <small class="text-spacing">1 hours ago</small>
               </div>
             </div>
           </div>
-          <div class="list d-flex align-items-center pt-3">
-            <img class="img-sm rounded-circle" src="../images/faces/face6.jpg" alt="">
+          <div class="row list d-flex align-items-center pt-3 pb-4">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC4.jpg" alt="">
             <div class="wrapper w-100 ml-3">
-              <p class="mb-0"><b>Nateila </b>posted in Material</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="d-flex align-items-center">
-                  <i class="mdi mdi-clock text-muted mr-1"></i>
-                  <p class="mb-0">That's awesome!</p>
+              <p class="mb-0 nums mt-4"><b class="num">Nateila </b>posted in Material</p>
+              <div class="row d-flex justify-content-between align-items-center last-cards-wid">
+                <div class="row d-flex align-items-center Activity-spacing">
+                  <i class="fa fa-clock-o text-muted mr-1"></i>
+                  <p class="mb-0 nums last-card-spacing">That's awesome!</p>
                 </div>
-                <small class="text-muted ml-auto">1 hours ago</small>
+                <small class="text-spacing">1 hours ago</small>
               </div>
             </div>
           </div>
@@ -336,65 +336,65 @@
       </div>
     </div>
     <div class="col-md-4 grid-margin stretch-card">
-      <div class="card card-l2-2">
-        <div class="card-body">
-          <h4 class="card-title">Recomended</h4>
-          <div class="wrapper d-flex align-items-center py-2 border-bottom">
-            <img class="img-sm rounded-circle" src="../images/faces/face5.jpg" alt="profile">
+      <div class="card card-l3-2">
+        <div class="card-body" style="padding-bottom: 6%;">
+          <h4 class="num">Recomended</h4>
+          <div class="row wrapper d-flex align-items-center py-2 border-bottom">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC2.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1">Stella Davidson</h6>
-              <small class="text-muted mb-0"><i class="mdi mdi-map-marker-outline mr-1"></i>New York City, USA</small>
+              <h6 class="ml-1 mb-1 num">Stella Davidson</h6>
+              <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>New York City, USA</small>
             </div>
-            <div class="badge badge-pill badge-info ml-auto px-1 py-1"><i class="mdi mdi-check font-weight-bold"></i>
+            <div class="badge badge-tick1 ml-auto px-1 py-1"><i class="fa fa-check-circle"></i>
             </div>
           </div>
-          <div class="wrapper d-flex align-items-center py-2 border-bottom">
-            <img class="img-sm rounded-circle" src="../images/faces/face6.jpg" alt="profile">
+          <div class="row wrapper d-flex align-items-center py-2 border-bottom">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC4.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1">Daniel Russel</h6>
-              <small class="text-muted mb-0"><i class="mdi mdi-map-marker-outline mr-1"></i>Florida, USA</small>
+              <h6 class="ml-1 mb-1 num">Daniel Russel</h6>
+              <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Florida, USA</small>
             </div>
-            <div class="badge badge-pill badge-success ml-auto px-1 py-1"><i class="mdi mdi-plus font-weight-bold"></i>
+            <div class="badge badge-plus ml-auto px-1 py-1"><i class="fa fa-plus"></i>
             </div>
           </div>
-          <div class="wrapper d-flex align-items-center py-2 border-bottom">
-            <img class="img-sm rounded-circle" src="../images/faces/face7.jpg" alt="profile">
+          <div class="row wrapper d-flex align-items-center py-2 border-bottom">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC3.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1">Bruno King</h6>
-              <small class="text-muted mb-0"><i class="mdi mdi-map-marker-outline mr-1"></i>Arkansas, USA</small>
+              <h6 class="ml-1 mb-1 num">Bruno King</h6>
+              <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Arkansas, USA</small>
             </div>
-            <div class="badge badge-pill badge-info ml-auto px-1 py-1"><i class="mdi mdi-check font-weight-bold"></i>
+            <div class="badge badge-tick2 ml-auto px-1 py-1"><i class="fa fa-check-circle"></i>
             </div>
           </div>
-          <div class="wrapper d-flex align-items-center py-2 border-bottom">
-            <img class="img-sm rounded-circle" src="../images/faces/face8.jpg" alt="profile">
+          <div class="row wrapper d-flex align-items-center py-2 border-bottom">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC5.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1">David Moore</h6>
-              <small class="text-muted mb-0"><i class="mdi mdi-map-marker-outline mr-1"></i>Arizon, USA</small>
+              <h6 class="ml-1 mb-1 num">David Moore</h6>
+              <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Arizon, USA</small>
             </div>
-            <div class="badge badge-pill badge-success ml-auto px-1 py-1"><i class="mdi mdi-plus font-weight-bold"></i>
+            <div class="badge badge-plus ml-auto px-1 py-1"><i class="fa fa-plus"></i>
             </div>
           </div>
-          <div class="wrapper d-flex align-items-center py-2 mb-4">
-            <img class="img-sm rounded-circle" src="../images/faces/face9.jpg" alt="profile">
+          <div class="row wrapper d-flex align-items-center py-2 mb-4">
+            <img class="img-sm rounded-circle img-wid" src="/src/assets/face12.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1">Rafell John</h6>
-              <small class="text-muted mb-0"><i class="mdi mdi-map-marker-outline mr-1"></i>Alaska, USA</small>
+              <h6 class="ml-1 mb-1 num">Rafell John</h6>
+              <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Alaska, USA</small>
             </div>
-            <div class="badge badge-pill badge-success ml-auto px-1 py-1"><i class="mdi mdi-plus font-weight-bold"></i>
+            <div class="badge badge-plus ml-auto px-1 py-1"><i class="fa fa-plus font-weight-bold"></i>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="col-md-4 grid-margin stretch-card">
-      <div class="card card-l2-3">
-        <div class="card-body">
-          <h4 class="card-title">Messages</h4>
+      <div class="card card-l3-3">
+        <div class="card-body" style="padding-bottom: 28%;">
+          <h4 class="num">Messages</h4>
           <div class="preview-list">
-            <div class="preview-item border-bottom px-0">
+            <div class="row preview-item border-bottom px-0">
               <div class="preview-thumbnail">
-                <img src="../images/faces/face6.jpg" alt="image" class="rounded-circle">
+                <img src="/src/assets/faceC4.jpg" alt="image" class="rounded-circle img-wid-last-card">
               </div>
               <div class="preview-item-content d-flex flex-grow">
                 <div class="flex-grow">
@@ -407,9 +407,9 @@
                 </div>
               </div>
             </div>
-            <div class="preview-item border-bottom px-0">
+            <div class="row preview-item border-bottom px-0">
               <div class="preview-thumbnail">
-                <img src="../images/faces/face8.jpg" alt="image" class="rounded-circle">
+                <img src="/src/assets/faceC5.jpg" alt="image" class="rounded-circle img-wid-last-card">
               </div>
               <div class="preview-item-content d-flex flex-grow">
                 <div class="flex-grow">
@@ -422,9 +422,9 @@
                 </div>
               </div>
             </div>
-            <div class="preview-item border-bottom px-0">
+            <div class="row preview-item border-bottom px-0">
               <div class="preview-thumbnail">
-                <img src="../images/faces/face9.jpg" alt="image" class="rounded-circle">
+                <img src="/src/assets/face12.jpg" alt="image" class="rounded-circle img-wid-last-card">
               </div>
               <div class="preview-item-content d-flex flex-grow">
                 <div class="flex-grow">
@@ -437,9 +437,9 @@
                 </div>
               </div>
             </div>
-            <div class="preview-item border-bottom px-0">
+            <div class="row preview-item border-bottom px-0">
               <div class="preview-thumbnail">
-                <img src="../images/faces/face11.jpg" alt="image" class="rounded-circle">
+                <img src="/src/assets/face11.jpg" alt="image" class="rounded-circle img-wid-last-card">
               </div>
               <div class="preview-item-content d-flex flex-grow">
                 <div class="flex-grow">

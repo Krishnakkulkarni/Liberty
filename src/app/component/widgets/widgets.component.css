@@ -54,7 +54,58 @@ small, .small {
 .card .card-body {
     padding: 35px 25px;
 }
+/*  */
 
+.icon-lg {
+    font-size: 2.5rem;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.time-position{
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.text-muted{
+    padding-right: 1.7rem;
+}
+.last-cards-wid{
+    width: 30rem;
+}
+/*  */
+.Activity-text-space{
+    margin-left: 4%;
+}
+.text-spacing{
+    margin-left: 10%;
+}
+.Activity-spacing{
+    margin-left: 5%;
+}
+.last-card-spacing{
+    margin-left: 20%;
+    margin-top: -12%;
+}
+.menu-space{
+    margin-left: 70%;
+    margin-top: 4%;
+}
+/*  */
+.card-l1-1{
+    width: 92%;
+    margin-left: 12%;
+}
+.card-l1-2{
+    margin-right: 3%;
+    margin-left: 2%;
+}
+.card-l1-3{
+    width: 92%;
+    margin-left: -5%;
+}
+/*  */
 .card-l2-1{
     width: 92%;
     margin-left: 12%;
@@ -67,6 +118,21 @@ small, .small {
     width: 92%;
     margin-left: -5%;
 }
+/*  */
+.card-l3-1{
+    width: 92%;
+    margin-left: 12%;
+}
+.card-l3-2{
+    margin-right: 3%;
+    margin-left: 2%;
+}
+
+.card-l3-3{
+    width: 92%;
+    margin-left: -5%;
+}
+
 /*  */
 .img-lg {
     width: 92px;
@@ -99,6 +165,9 @@ small, .small {
 }
 
 /*  */
+.text-align{
+    padding-left: 20%;
+}
 .text-facebook{
     color: #3b579d;
     font-size: large;
@@ -113,3 +182,35 @@ small, .small {
 }
 
 /*  */
+.img-wid{
+    width: 15%;
+}
+.img-wid-last-card{
+    width:50%;
+}
+.border-bottom {
+    border-bottom: 1px solid #d5dcec !important;
+}
+/*  */
+.top-space{
+    margin-top: -10%;
+}
+/* icon */
+.badge-tick1{
+    border: 1px solid #857bff;
+    background: #857bff;
+    color: #fff;
+    margin-left: 40%;
+}
+.badge-tick2{
+    border: 1px solid #857bff;
+    background: #857bff;
+    color: #fff;
+    margin-left: 46%;
+}
+.badge-plus {
+    border: 1px solid #4CCEAC;
+    background: #4CCEAC;
+    color: #fff;
+    margin-left: 50%;
+}
