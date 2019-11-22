@@ -3,21 +3,21 @@
     <div class="col-md-6 grid-margin">
       <div class="card card-statistics mt-4 pb-0">
         <div class="card-body">
-          <h4 class="card-title mb-0 num">Statistics</h4>
+          <h4 class="card-title mb-0 default-color-dark">Statistics</h4>
           <div class="row d-flex justify-content-between align-items-center">
-            <div class="d-inline-block col-md-6">
+            <div class="col-md-6">
               <div class="row d-flex">
-                <h2 class="mb-0 ml-2 num">$10,200</h2>
+                <h2 class="mb-0 ml-2 default-color-dark">$10,200</h2>
                 <div class="row d-flex align-items-center time-position">
                   <i class="fa fa-clock-o text-muted"></i>
-                  <div class="row ml-1 mb-0 nums">Updated: 9:10am</div>
+                  <div class="row ml-1 mb-0 default-color-light">Updated: 9:10am</div>
                 </div>
               </div>
               <small class="text-gray">Raised from 89 orders.</small>
             </div>
             <div class="d-inline-block col-md-6">
-              <div class="bg-success px-4 py-2 rounded">
-                <i class="mdi mdi-buffer text-white icon-lg"></i>
+              <div class="bg-success px-4 py-1 rounded">
+                <i class="fa fa-database text-white icon"></i>
               </div>
             </div>
           </div>
@@ -27,21 +27,21 @@
     <div class="col-md-6 grid-margin">
       <div class="card card-order mt-4 pb-0">
         <div class="card-body">
-          <h4 class="card-title mb-0 num">Daily Order</h4>
+          <h4 class="card-title mb-0 default-color-dark">Daily Order</h4>
           <div class="row d-flex justify-content-between align-items-center">
-            <div class="d-inline-block col-md-6">
+            <div class="col-md-6">
               <div class="row d-flex">
-                <h2 class="mb-0 ml-2 num">$2256</h2>
+                <h2 class="mb-0 ml-2 default-color-dark">$2256</h2>
                 <div class="row d-flex align-items-center time-position">
                   <i class="fa fa-clock-o text-muted"></i>
-                  <div class="row ml-1 mb-0 nums">Updated: 05:42pm</div>
+                  <div class="row ml-1 mb-0 default-color-light">Updated: 05:42pm</div>
                 </div>
               </div>
               <small class="text-gray">hey, let’s have lunch together</small>
             </div>
             <div class="d-inline-block col-md-6">
               <div class="bg-warning px-4 py-2 rounded">
-                <i class="mdi mdi-wallet text-white icon-lg"></i>
+                <i class="fa fa-folder-open-o text-white icon"></i>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@
           <div class="d-flex row">
             <img src="/src/assets/face11.jpg" class="img-lg rounded" alt="profile image">
             <div class="ml-3">
-              <h6 class="num" style="font-size: large;">Maria</h6>
+              <h6 class="default-color-dark" style="font-size: large;">Maria</h6>
               <p class="text-muted">maria@gmail.com</p>
               <p class="mt-2 text-success font-weight-bold">Designer</p>
             </div>
@@ -71,7 +71,7 @@
           <div class="d-flex row">
             <img src="/src/assets/face12.jpg" class="img-lg rounded" alt="profile image">
             <div class="ml-3">
-              <h6 class="num" style="font-size: large;">Thomas Edison</h6>
+              <h6 class="default-color-dark" style="font-size: large;">Thomas Edison</h6>
               <p class="text-muted">thomas@gmail.com</p>
               <p class="mt-2 text-success font-weight-bold">Developer</p>
             </div>
@@ -85,7 +85,7 @@
           <div class="d-flex row">
             <img src="/src/assets/face13.jpg" class="img-lg rounded" alt="profile image">
             <div class="ml-3">
-              <h6 class="num" style="font-size: large;">Edward</h6>
+              <h6 class="default-color-dark" style="font-size: large;">Edward</h6>
               <p class="text-muted">edward@gmail.com</p>
               <p class="mt-2 text-success font-weight-bold">Tester</p>
             </div>
@@ -141,7 +141,7 @@
     <div class="col-md-4 grid-margin stretch-card">
       <div class="card  card-l2-1">
         <div class="card-body">
-          <h4 class="num">Todo</h4>
+          <h4 class="default-color-dark">Todo</h4>
           <div class="row add-items d-flex">
             <input type="text" class="list-input" placeholder="What do you need to do today?">
             <button class="btn btn-sm font-weight-bold">Add</button>
@@ -149,58 +149,46 @@
           <div class="list-wrapper">
             <ul class="d-flex flex-column-reverse todo-list todo-list-custom">
               <li>
-                <div class="form-check form-check-flat">
-                  <label class="form-check-label">
-                    <input class="checkbox" type="checkbox">
-                    Meeting with Alisa
-                    <i class="input-helper"></i></label>
+                <div class="form-check pt-4 pb-4 default-color-light">
+                  <input class="form-check-input" type="checkbox">
+                  Meeting with Alisa
+                  <i class="fa fa-times-circle-o remove" style="margin-left: 12rem;"></i>
                 </div>
-                <i class="remove mdi mdi-close-circle-outline"></i>
               </li>
               <li class="completed">
-                <div class="form-check form-check-flat">
-                  <label class="form-check-label">
-                    <input class="checkbox" type="checkbox" checked="">
-                    Call John
-                    <i class="input-helper"></i></label>
+                <div class="form-check border-top pt-4 pb-4 default-color-light">
+                  <input class="form-check-input" type="checkbox" checked="">
+                  Call John
+                  <i class="fa fa-times-circle-o remove" style="margin-left: 17.4rem;"></i>
                 </div>
-                <i class="remove mdi mdi-close-circle-outline"></i>
               </li>
               <li>
-                <div class="form-check form-check-flat">
-                  <label class="form-check-label">
-                    <input class="checkbox" type="checkbox">
-                    Create invoice
-                    <i class="input-helper"></i></label>
+                <div class="form-check border-top pt-4 pb-4 default-color-light">
+                  <input class="form-check-input" type="checkbox">
+                  Create invoice
+                  <i class="fa fa-times-circle-o remove" style="margin-left: 14.4rem;"></i>
                 </div>
-                <i class="remove mdi mdi-close-circle-outline"></i>
               </li>
               <li>
-                <div class="form-check form-check-flat">
-                  <label class="form-check-label">
-                    <input class="checkbox" type="checkbox">
-                    Print Statements
-                    <i class="input-helper"></i></label>
+                <div class="form-check border-top pt-4 pb-4 default-color-light">
+                  <input class="form-check-input" type="checkbox">
+                  Print Statements
+                  <i class="fa fa-times-circle-o remove" style="margin-left: 13.1rem;"></i>
                 </div>
-                <i class="remove mdi mdi-close-circle-outline"></i>
               </li>
               <li class="completed">
-                <div class="form-check form-check-flat">
-                  <label class="form-check-label">
-                    <input class="checkbox" type="checkbox" checked="">
-                    Prepare for presentation
-                    <i class="input-helper"></i></label>
+                <div class="form-check border-top pt-4 pb-4 default-color-light">
+                  <input class="form-check-input" type="checkbox" checked="">
+                  Prepare for presentation
+                  <i class="fa fa-times-circle-o remove" style="margin-left: 8.5rem;"></i>
                 </div>
-                <i class="remove mdi mdi-close-circle-outline"></i>
               </li>
               <li>
-                <div class="form-check form-check-flat">
-                  <label class="form-check-label">
-                    <input class="checkbox" type="checkbox">
-                    Pick up kids from school
-                    <i class="input-helper"></i></label>
+                <div class="form-check border-top pt-4 pb-4 default-color-light">
+                  <input class="form-check-input" type="checkbox">
+                  Pick up kids from school
+                  <i class="fa fa-times-circle-o remove" style="margin-left: 8.5rem;"></i>
                 </div>
-                <i class="remove mdi mdi-close-circle-outline"></i>
               </li>
             </ul>
           </div>
@@ -211,25 +199,25 @@
       <div class="card text-center card-l2-2">
         <div class="card-body">
           <img src="/src/assets/index.jpeg" class="img-lg rounded-circle mb-2" alt="profile image">
-          <h4 class="num">Adesh Gupta</h4>
+          <h4 class="default-color-dark">Adesh Gupta</h4>
           <p class="text-muted">CEO</p>
-          <p class="mt-4 card-text nums">
+          <p class="mt-4 card-text default-color-light">
             Liberty Shoes Limited (LSL) is an Indian shoe company, based in Karnal, Haryana.
           </p>
-          <button class="btn btn-sm mt-3">Follow</button>
+          <button class="btn btn-sm middle-card-spacing mt-4">Follow</button>
           <div class="border-top pt-3">
             <div class="row">
               <div class="col-sm-4">
-                <h6 class="num">5896</h6>
-                <p class="nums">Post</p>
+                <h6 class="default-color-dark">5896</h6>
+                <p class="default-color-light">Post</p>
               </div>
               <div class="col-sm-4">
-                <h6 class="num">1596</h6>
-                <p class="nums">Followers</p>
+                <h6 class="default-color-dark">1596</h6>
+                <p class="default-color-light">Followers</p>
               </div>
               <div class="col-sm-4">
-                <h6 class="num">7896</h6>
-                <p class="nums">Likes</p>
+                <h6 class="default-color-dark">7896</h6>
+                <p class="default-color-light">Likes</p>
               </div>
             </div>
           </div>
@@ -238,28 +226,28 @@
     </div>
     <div class="col-md-4 grid-margin stretch-card">
       <div class="card card-l2-3">
-        <div class="card-body">
-          <h4 class="num">Updates</h4>
+        <div class="card-body" style="padding-bottom: 15%;">
+          <h4 class="default-color-dark">Updates</h4>
           <ul class="bullet-line-list">
             <li>
-              <h6 class="num">User confirmation</h6>
-              <p class="mb-0 nums">Lorem Ipsum is simply dummy text of the printing </p>
+              <h6 class="default-color-dark">User confirmation</h6>
+              <p class="mb-0 default-color-light">Lorem Ipsum is simply dummy text of the printing </p>
               <p class="text-muted">
                 <i class="mdi mdi-clock"></i>
                 7 months ago.
               </p>
             </li>
             <li>
-              <h6 class="num">Continuous evaluation</h6>
-              <p class="mb-0 nums">Lorem Ipsum is simply dummy text of the printing </p>
+              <h6 class="default-color-dark">Continuous evaluation</h6>
+              <p class="mb-0 default-color-light">Lorem Ipsum is simply dummy text of the printing </p>
               <p class="text-muted">
                 <i class="mdi mdi-clock"></i>
                 7 months ago.
               </p>
             </li>
             <li>
-              <h6 class="num">Promotion</h6>
-              <p class="mb-0 nums">Lorem Ipsum is simply dummy text of the printing </p>
+              <h6 class="default-color-dark">Promotion</h6>
+              <p class="mb-0 default-color-light">Lorem Ipsum is simply dummy text of the printing </p>
               <p class="text-muted">
                 <i class="mdi mdi-clock"></i>
                 7 months ago.
@@ -276,18 +264,18 @@
       <div class="card card-l3-1">
         <div class="card-body">
           <div class="row d-flex justify-content-between">
-            <h4 class="num Activity-text-space">Activity</h4>
+            <h4 class="default-color-dark Activity-text-space">Activity</h4>
             <i class="fa fa-ellipsis-v menu-space"></i>
           </div>
-          <p class="card-description nums">What's people doing right now</p>
+          <p class="card-description default-color-light">What's people doing right now</p>
           <div class="row list d-flex align-items-center border-bottom py-3 pb-4 pt-2">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC1.jpg" alt="">
             <div class="wrapper w-100 ml-3 mt-0">
-              <p class="mb-0 nums mt-4"><b class="num">Dobrick </b>posted in Material</p>
+              <p class="mb-0 default-color-light mt-4"><b class="default-color-dark">Dobrick </b>posted in Material</p>
               <div class="row d-flex justify-content-between align-items-center last-cards-wid">
                 <div class="row d-flex align-items-center Activity-spacing">
                   <i class="fa fa-clock-o text-muted"></i>
-                  <p class="mb-0 nums">That's awesome!</p>
+                  <p class="mb-0 default-color-light">That's awesome!</p>
                 </div>
                 <small class="text-spacing">2 hours ago</small>
               </div>
@@ -296,11 +284,11 @@
           <div class="row list d-flex align-items-center border-bottom py-3 pb-4 pt-4">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC2.jpg" alt="">
             <div class="wrapper w-100 ml-3">
-              <p class="mb-0 nums mt-4"><b class="num">Stella </b>posted in Material</p>
+              <p class="mb-0 default-color-light mt-4"><b class="default-color-dark">Stella </b>posted in Material</p>
               <div class="row d-flex justify-content-between align-items-center last-cards-wid">
                 <div class="row d-flex align-items-center Activity-spacing">
                   <i class="fa fa-clock-o text-muted"></i>
-                  <p class="mb-0 nums">That's awesome!</p>
+                  <p class="mb-0 default-color-light">That's awesome!</p>
                 </div>
                 <small class="text-spacing">3 hours ago</small>
               </div>
@@ -309,11 +297,11 @@
           <div class="row list d-flex align-items-center border-bottom py-3 pb-4 pt-4">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC3.jpg" alt="">
             <div class="wrapper w-100 ml-3">
-              <p class="mb-0 nums mt-4"><b class="num">Peter </b>posted in Material</p>
+              <p class="mb-0 default-color-light mt-4"><b class="default-color-dark">Peter </b>posted in Material</p>
               <div class="row d-flex justify-content-between align-items-center last-cards-wid">
                 <div class="row d-flex align-items-center Activity-spacing">
                   <i class="fa fa-clock-o text-muted"></i>
-                  <p class="mb-0 nums">That's Great!</p>
+                  <p class="mb-0 default-color-light">That's Great!</p>
                 </div>
                 <small class="text-spacing">1 hours ago</small>
               </div>
@@ -322,11 +310,11 @@
           <div class="row list d-flex align-items-center pt-3 pb-4">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC4.jpg" alt="">
             <div class="wrapper w-100 ml-3">
-              <p class="mb-0 nums mt-4"><b class="num">Nateila </b>posted in Material</p>
+              <p class="mb-0 default-color-light mt-4"><b class="default-color-dark">Nateila </b>posted in Material</p>
               <div class="row d-flex justify-content-between align-items-center last-cards-wid">
                 <div class="row d-flex align-items-center Activity-spacing">
                   <i class="fa fa-clock-o text-muted mr-1"></i>
-                  <p class="mb-0 nums last-card-spacing">That's awesome!</p>
+                  <p class="mb-0 default-color-light last-card-spacing">That's awesome!</p>
                 </div>
                 <small class="text-spacing">1 hours ago</small>
               </div>
@@ -338,11 +326,11 @@
     <div class="col-md-4 grid-margin stretch-card">
       <div class="card card-l3-2">
         <div class="card-body" style="padding-bottom: 6%;">
-          <h4 class="num">Recomended</h4>
+          <h4 class="default-color-dark">Recomended</h4>
           <div class="row wrapper d-flex align-items-center py-2 border-bottom">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC2.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1 num">Stella Davidson</h6>
+              <h6 class="ml-1 mb-1 default-color-dark">Stella Davidson</h6>
               <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>New York City, USA</small>
             </div>
             <div class="badge badge-tick1 ml-auto px-1 py-1"><i class="fa fa-check-circle"></i>
@@ -351,7 +339,7 @@
           <div class="row wrapper d-flex align-items-center py-2 border-bottom">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC4.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1 num">Daniel Russel</h6>
+              <h6 class="ml-1 mb-1 default-color-dark">Daniel Russel</h6>
               <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Florida, USA</small>
             </div>
             <div class="badge badge-plus ml-auto px-1 py-1"><i class="fa fa-plus"></i>
@@ -360,7 +348,7 @@
           <div class="row wrapper d-flex align-items-center py-2 border-bottom">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC3.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1 num">Bruno King</h6>
+              <h6 class="ml-1 mb-1 default-color-dark">Bruno King</h6>
               <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Arkansas, USA</small>
             </div>
             <div class="badge badge-tick2 ml-auto px-1 py-1"><i class="fa fa-check-circle"></i>
@@ -369,7 +357,7 @@
           <div class="row wrapper d-flex align-items-center py-2 border-bottom">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/faceC5.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1 num">David Moore</h6>
+              <h6 class="ml-1 mb-1 default-color-dark">David Moore</h6>
               <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Arizon, USA</small>
             </div>
             <div class="badge badge-plus ml-auto px-1 py-1"><i class="fa fa-plus"></i>
@@ -378,7 +366,7 @@
           <div class="row wrapper d-flex align-items-center py-2 mb-4">
             <img class="img-sm rounded-circle img-wid" src="/src/assets/face12.jpg" alt="profile">
             <div class="wrapper ml-3">
-              <h6 class="ml-1 mb-1 num">Rafell John</h6>
+              <h6 class="ml-1 mb-1 default-color-dark">Rafell John</h6>
               <small class="text-muted mb-0"><i class="fa fa-map-marker mr-1"></i>Alaska, USA</small>
             </div>
             <div class="badge badge-plus ml-auto px-1 py-1"><i class="fa fa-plus font-weight-bold"></i>
@@ -390,7 +378,7 @@
     <div class="col-md-4 grid-margin stretch-card">
       <div class="card card-l3-3">
         <div class="card-body" style="padding-bottom: 28%;">
-          <h4 class="num">Messages</h4>
+          <h4 class="default-color-dark">Messages</h4>
           <div class="preview-list">
             <div class="row preview-item border-bottom px-0">
               <div class="preview-thumbnail">

@@ -1,71 +1,87 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<nav class="shadow horizontal-layout col-lg-12 col-12">
-  <div class="col-md-6">
-    <img src="../assets/logo-inverse.svg" class="header">
-  </div>
-  <div class="col-md-6">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-  </div>
+<div class="outer-div">
+  <nav class="shadow col-lg-12 col-12">
+    <div class="rows">
+      <div class="col-md-6">
+        <img src="../assets/logo-inverse.svg" class="header">
+      </div>
+      <div class="col-md-6">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+      </div>
+    </div>
 
-  <div class="row labels">
-    <div class="col-xl-2 headwid">
-      <a class="btn btn-outline-light btn-lg" routerLink="/dashboard" routerLinkActive="active"
-        (click)="HeaderName= 'dashboard'"
-        [ngClass]="{'before':HeaderName!= 'dashboard','after':HeaderName=='dashboard'}">
-      <i class="fa fa-desktop icon-color pr-4"></i>DASHBOARD
-    </a>
-    </div>
-    <div class="col-xl-2 headwid">
-      <a class="btn btn-outline-light btn-lg" routerLink="/widgets" routerLinkActive="active"
-        (click)="HeaderName= 'widgets'"
-        [ngClass]="{'before':HeaderName!= 'widgets','after':HeaderName=='widgets'}">
-        <i class="fa fa fa-compass icon-color pr-4"></i>WIDGETS</a>
-    </div>
-    <div class="col-xl-2 dropdown headwid">
-      <a class="btn dropbtn btn-outline-light btn-lg textheader">
+    <div class="row labels">
+      <div class="col-xl-2 headwid">
+        <a class="btn btn-outline-light btn-lg" routerLink="/dashboard" routerLinkActive="active"
+          (click)="HeaderName= 'dashboard'"
+          [ngClass]="{'before':HeaderName!= 'dashboard','after':HeaderName=='dashboard'}">
+          <i class="fa fa-desktop icon-color pr-4"></i>DASHBOARD
+        </a>
+      </div>
+      <div class="col-xl-2 headwid">
+        <a class="btn btn-outline-light btn-lg" routerLink="/widgets" routerLinkActive="active"
+          (click)="HeaderName= 'widgets'" [ngClass]="{'before':HeaderName!= 'widgets','after':HeaderName=='widgets'}">
+          <i class="fa fa fa-compass icon-color pr-4"></i>WIDGETS</a>
+      </div>
+      <div class="col-xl-2 dropdown headwid">
+        <a class="btn dropbtn btn-outline-light btn-lg textheader">
           <i class="fa fa-empire icon-color pr-4"></i>UI ELEMENTS
-        <img src="../assets/arrow_drop_down-24px.svg">
-      </a>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-    </div>
-    <div class="col-xl-2 dropdown headwid">
-      <a class="btn dropbtn btn-outline-light btn-lg textheader">
-          <i class="fa fa fa-flag icon-color pr-4"></i>PAGES
           <img src="../assets/arrow_drop_down-24px.svg">
-      </a>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        </a>
+        <div class="col-12 dropdown-content">
+          <a class="">Basic Elements</a>
+          <a href="">Accordion</a>
+          <a href="#">Button</a>
+          <a href="badges">Badges</a>
+          <a href="#">Breadcrumbs</a>
+          <a href="#">Dropdown</a>
+          <a href="#">Modals</a>
+          <a href="progressbar">Progress bar</a>
+          <a href="#">Pagination</a>
+          <a href="#">Tabs</a>
+          <a href="#">Typography</a>
+          <a href="#">Tooltip</a>
+          <a class="">Advanced Elements</a>
+          <a class="">Table</a>
+          <a class="">Icons</a>
+        </div>
       </div>
-    </div>
-    <div class="col-xl-2 dropdown headwid">
-      <a class="btn dropbtn btn-outline-light btn-lg textheader">
+      <div class="col-xl-2 dropdown headwid">
+        <a class="btn dropbtn btn-outline-light btn-lg textheader">
+          <i class="fa fa-flag-o icon-color pr-4"></i>PAGES
+          <img src="../assets/arrow_drop_down-24px.svg">
+        </a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+      <div class="col-xl-2 dropdown headwid">
+        <a class="btn dropbtn btn-outline-light btn-lg textheader">
           <i class="fa fa fa-adn icon-color pr-4"></i>FORMS
           <img src="../assets/arrow_drop_down-24px.svg">
-      </a>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        </a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
-    </div>
-    <div class="col-xl-2 dropdown headwid">
-      <a class="btn dropbtn btn-outline-light btn-lg textheader">
+      <div class="col-xl-2 dropdown headwid">
+        <a class="btn dropbtn btn-outline-light btn-lg textheader">
           <i class="fa fa fa-asterisk icon-color pr-4"></i>APPS
           <img src="../assets/arrow_drop_down-24px.svg">
-      </a>
-      <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        </a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<router-outlet></router-outlet>
+
+  <router-outlet></router-outlet>
+</div>

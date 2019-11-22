@@ -138,12 +138,15 @@
 .align-items-center{
     align-items: center;
 }
-.num{
+.default-color-dark{
     font-weight: bolder;
     color: rgb(53, 65, 104);
 }
 
-.nums{
+.default-color-light{
     font-weight: normal;
     color: rgb(53, 65, 104);
+}
+.text-gray{
+    color: #636363;
 }

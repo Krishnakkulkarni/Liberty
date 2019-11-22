@@ -4,12 +4,16 @@ import { AppRoutingModule } from './app.routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { WidgetsComponent } from './component/widgets/widgets.component';
+import { ProgressbarComponent } from './component/progressbar/progressbar.component';
+import { BadgesComponent } from './component/badges/badges.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    WidgetsComponent
+    WidgetsComponent,
+    BadgesComponent,
+    ProgressbarComponent
   ],
   imports: [
     BrowserModule,

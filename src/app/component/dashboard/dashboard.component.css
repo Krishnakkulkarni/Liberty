@@ -6,6 +6,8 @@
 }
 
 .content-wrapper {
+    position: relative;
+    z-index: -1;
     padding: 1.5rem 0;
     width: 100%;
     -webkit-flex-grow: 1;
@@ -15,6 +17,14 @@
 
 .text{
     color: rgb(53, 65, 104);
+}
+.text-primary {
+    color: #464de4 !important;
+}
+.icon-lg{
+    font-size: 4rem;
+    padding-right: 4rem;
+    padding-left: 1rem;
 }
 .card {
     border: 1px solid #d5dcec;
@@ -40,12 +50,13 @@
     margin-top: 11%;
 }
 
-.card .card-body {
-    padding: 35px 18px;
+.card-color{
+    background: #fff;
+    margin-left: 0%;
 }
 
-.text-centers {
-    text-align: center !important;
+.card .card-body {
+    padding: 35px 18px;
 }
 
 .pt-3, .py-3 {
@@ -65,9 +76,6 @@
 
 .mb-0{
     margin-bottom: 0% !important;
-}
-.text-gray{
-    color: #636363;
 }
 
 .mb-4, .user-profile .side-left .card .overview .about-user, .my-4 {
@@ -310,6 +318,10 @@ tr {
 
 .card-title{
     font-size: 1.7rem;
+}
+
+.card-spacing{
+    padding-bottom: 37.5% !important;
 }
 
 .current-chart-card{

@@ -1,0 +1,153 @@
+.content-wrapper {
+    padding: 14.5rem 0;
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    background: #eff3f5;
+}
+.row{
+    margin-left: 5.7%;
+    margin-right: 5.7%;
+}
+
+.grid-margin{
+    margin-bottom: 25px;
+}
+
+.stretch-card > .card {
+    width: 100%;
+    min-width: 100%;
+}
+.card {
+    border: 1px solid #d5dcec;
+    border-radius: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card-body{
+    margin: 3%;
+}
+.progress.progress-md {
+    height: 8px;
+}
+.template-demo .progress {
+    margin-top: 1.5rem;
+}
+.progress {
+    border-radius: 3px;
+}
+.progress {
+    display: flex;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+}
+
+.progress .progress-bar {
+    border-radius: 3px;
+}
+.bg-primary {
+    background-color: #464de4 !important;
+}
+
+/* progress bar 2 */
+
+.bg-info {
+    background-color: #857bff !important;
+}
+.bg-warning {
+    background-color: #FF6F59 !important;
+}
+.bg-danger {
+    background-color: #DB504A !important;
+}
+
+/* progress bar 3 */
+.progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+}
+
+/* progress bar 4 */
+.progress-bar-animated {
+    animation: progress-bar-stripes 1s linear infinite;
+}
+
+/* progress bar 5 */
+.bg-success {
+    background-color: #4CCEAC !important;
+}
+.progress.progress-lg {
+    height: 15px;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.justify-content-between[_ngcontent-c1] {
+    -webkit-box-pack: justify !important;
+    justify-content: space-between !important;
+}
+.mt-2{
+    margin-top: 0.1rem !important;
+}
+/* progress bar 7 */
+.ml{
+    margin-left: 7.3%;
+}
+/* progress bar 8 */
+
+.progress-sm{
+        height: 0.6rem !important
+}
+.card-title {
+    margin-bottom: 1.125rem;
+    text-transform: capitalize;
+}
+.progressbar-js-circle {
+    width: 100%;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+.rounded, .loader-demo-box {
+    border-radius: 0.25rem !important;
+}
+.border, .loader-demo-box {
+    border: 1px solid #d5dcec !important;
+}
+@media (min-width: 768px){
+    .col-md-4, .lightGallery .image-tile {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
+.template-demo .circle-progress-block{
+    margin-bottom: 1rem !important;
+}
+.pl-2, .px-2, .template-demo .circle-progress-block {
+    padding-left: 0.5rem !important;
+}
+
+.pr-2, .px-2, .template-demo .circle-progress-block {
+    padding-right: 0.5rem !important;
+}
+.pl-2, .px-2, .template-demo .circle-progress-block {
+    padding-left: 0.5rem !important;
+}
+.bg-dark {
+    background-color: #223C61 !important;
+}
