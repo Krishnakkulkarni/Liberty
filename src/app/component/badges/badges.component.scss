@@ -1,0 +1,129 @@
+.content-wrapper {
+    padding: 14.5rem 0;
+    width: 100%;
+    flex-grow: 1;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    background: #eff3f5;
+}
+.row{
+    margin-left: 5.7%;
+    margin-right: 5.7%;
+}
+.grid-margin{
+    margin-bottom: 25px;
+}
+
+.stretch-card > .card {
+    width: 100%;
+    min-width: 100%;
+}
+.card {
+    border: 1px solid #d5dcec;
+    border-radius: 0px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card-body{
+    margin: 3%;
+}
+
+/* card 3 */
+.item-outline-default{
+    color: #464de4;
+    border: 1px solid #464de4;
+    background-color: white;
+}.item-outline-primary{
+    color: #857bff;
+    border: 1px solid #857bff;
+    background-color: white;
+
+}.item-outline-danger{
+    color: #DB504A;
+    border: 1px solid #DB504A;
+    background-color: white;
+
+}.item-outline-success{
+    color: #4CCEAC;
+    border: 1px solid #4CCEAC;
+    background-color: white;
+
+}.item-outline-warning{
+    color: #FF6F59;
+    border: 1px solid #FF6F59;
+    background-color: white;
+}
+
+.label-outline-default{
+    color: #464de4;
+    border: 1px solid #464de4;
+    background-color: white;
+    border-radius: 15%;
+}
+.label-outline-primary{
+    color: #857bff;
+    border: 1px solid #857bff;
+    background-color: white;
+
+    border-radius: 15%;
+}
+.label-outline-danger{
+    color: #DB504A;
+    border: 1px solid #db504a;
+    background-color: white;
+    border-radius: 15%;
+}
+.label-outline-success{
+    color: #4CCEAC;
+    border: 1px solid #4CCEAC;
+    background-color: white;
+    border-radius: 15%;
+}
+.label-outline-warning{
+    color: #FF6F59;
+    border: 1px solid #FF6F59;
+    background-color: white;
+    border-radius: 15%;
+}
+
+/* badge colors */
+.badge-primary {
+    border: 1px solid #464de4;
+    background-color: #464de4;
+    color: #fff;
+}
+.badge-info {
+    background-color: #857bff;
+    border: 1px solid #857bff;
+    color: #fff;
+}
+.badge-danger {
+    background-color: #DB504A;
+    border: 1px solid #db504a;
+    color: #fff;
+}
+.badge-success {
+    background-color: #4CCEAC;
+    border: 1px solid #4CCEAC;
+    color: #fff;
+}
+.badge-warning {
+    background-color: #FF6F59;
+    border: 1px solid #FF6F59;
+    color: #fff;
+}
+/* card 1 */
+.border-radius-card1{
+    border-radius: 15%;
+}
