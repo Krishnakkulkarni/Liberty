@@ -6,11 +6,11 @@ import { ProgressbarComponent } from './component/progressbar/progressbar.compon
 import { BadgesComponent } from './component/badges/badges.component';
 
 const routes: Routes = [
-    { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-    { path: 'dashboard', component: DashboardComponent},
-    { path: 'widgets', component: WidgetsComponent},
-    { path: 'badges', component: BadgesComponent},
-    { path: 'progressbar', component: ProgressbarComponent},
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'widgets', component: WidgetsComponent },
+  { path: 'badges', component: BadgesComponent },
+  { path: 'progressbar', component: ProgressbarComponent },
 ];
 
 @NgModule({
